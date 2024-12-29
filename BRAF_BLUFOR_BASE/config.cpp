@@ -129,28 +129,28 @@ class BRAF_Worker_Fuel_CFN;
 
   class BRAF_B_Worker_Fuel_FAB: BRAF_Worker_Fuel_FAB
     {
-      faction="BRAF_B_BRAF_Bluforce";
+      faction="BRAF_B_BRAF_Bluforce_FA";
       side=1;
       crew="Braf_B_army_rifleman_regular_2020";
       typicalCargo[]={"Braf_B_army_rifleman_regular_2020"};
     };
   class BRAF_B_Worker_Ammo_FAB: BRAF_Worker_Ammo_FAB
     {
-      faction="BRAF_B_BRAF_Bluforce";
+      faction="BRAF_B_BRAF_Bluforce_FA";
       side=1;
       crew="Braf_B_army_rifleman_regular_2020";
       typicalCargo[]={"Braf_B_army_rifleman_regular_2020"};
     };
   class BRAF_B_Worker_Ammo_CFN: BRAF_Worker_Ammo_CFN
     {
-      faction="BRAF_B_BRAF_Bluforce";
+      faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;
       crew="Braf_B_army_rifleman_regular_2020";
       typicalCargo[]={"Braf_B_army_rifleman_regular_2020"};
     };
   class BRAF_B_Worker_Fuel_CFN: BRAF_Worker_Fuel_CFN
   {
-    faction="BRAF_B_BRAF_Bluforce";
+    faction="BRAF_B_BRAF_Bluforce_marines";
     side=1;
     crew="Braf_B_army_rifleman_regular_2020";
     typicalCargo[]={"Braf_B_army_rifleman_regular_2020"};
@@ -398,25 +398,25 @@ class BRAF_Worker_Fuel_CFN;
   };
   class braf_B_characters_aviation_air_force_fighter_pilot:braf_characters_aviation_air_force_fighter_pilot
   {
-  faction="BRAF_B_BRAF_Bluforce";
+  faction="BRAF_B_BRAF_Bluforce_FA";
   side=1;
   modelSides[] = {3,2,1,0};
   };
   class braf_B_characters_aviation_air_force_pilot:braf_characters_aviation_air_force_pilot
   {
-  faction="BRAF_B_BRAF_Bluforce";
+  faction="BRAF_B_BRAF_Bluforce_FA";
   side=1;
   modelSides[] = {3,2,1,0};
   };
   class braf_B_characters_aviation_navy_fighter_pilot:braf_characters_aviation_navy_fighter_pilot
   {
-  faction="BRAF_B_BRAF_Bluforce";
+  faction="BRAF_B_BRAF_Bluforce_marines";
   side=1;
   modelSides[] = {3,2,1,0};
   };
   class braf_B_characters_aviation_navy_pilot:braf_characters_aviation_navy_pilot
   {
-  faction="BRAF_B_BRAF_Bluforce";
+  faction="BRAF_B_BRAF_Bluforce_marines";
   side=1;
   modelSides[] = {3,2,1,0};
   };
@@ -534,52 +534,46 @@ class BRAF_Worker_Fuel_CFN;
   };
   class braf_B_A29_EDA: braf_A29_EDA
   {
-    faction="BRAF_B_BRAF_Bluforce";
+    faction="BRAF_B_BRAF_Bluforce_FA";
     side=1;
     crew="braf_B_characters_aviation_army_aviation_pilot";
     typicalCargo[]={"braf_B_characters_aviation_army_aviation_pilot"};
   };
   class braf_B_A29A: braf_A29A
   {
-    faction="BRAF_B_BRAF_Bluforce";
+    faction="BRAF_B_BRAF_Bluforce_FA";
     side=1;
-    crew="braf_B_characters_aviation_army_aviation_pilot";
-    typicalCargo[]={"braf_B_characters_aviation_army_aviation_pilot"};
+    crew="braf_characters_aviation_air_force_fighter_pilot";
   };
   class braf_B_A29B_Jambock:  braf_A29B_Jambock
   {
-    faction="BRAF_B_BRAF_Bluforce";
+    faction="BRAF_B_BRAF_Bluforce_FA";
     side=1;
-    crew="braf_B_characters_aviation_army_aviation_pilot";
-    typicalCargo[]={"braf_B_characters_aviation_army_aviation_pilot"};
+    crew="braf_characters_aviation_air_force_fighter_pilot";
   };
   class braf_B_A29B_100k: braf_A29B_100k
   {
-    faction="BRAF_B_BRAF_Bluforce";
+    faction="BRAF_B_BRAF_Bluforce_FA";
     side=1;
-    crew="braf_B_characters_aviation_army_aviation_pilot";
-    typicalCargo[]={"braf_B_characters_aviation_army_aviation_pilot"};
+    crew="braf_characters_aviation_air_force_fighter_pilot";
   };
   class braf_B_A29B_90k: braf_A29B_90k
   {
-    faction="BRAF_B_BRAF_Bluforce";
+    faction="BRAF_B_BRAF_Bluforce_FA";
     side=1;
-    crew="braf_B_characters_aviation_army_aviation_pilot";
-    typicalCargo[]={"braf_B_characters_aviation_army_aviation_pilot"};
+    crew="braf_characters_aviation_air_force_fighter_pilot";
   };
   class braf_B_A29B: braf_A29B
   {
-    faction="BRAF_B_BRAF_Bluforce";
+    faction="BRAF_B_BRAF_Bluforce_FA";
     side=1;
-    crew="braf_B_characters_aviation_army_aviation_pilot";
-    typicalCargo[]={"braf_B_characters_aviation_army_aviation_pilot"};
+    crew="braf_characters_aviation_air_force_fighter_pilot";
   };
   class BRAF_B_GripenNG: BRAF_GripenNG
   {
-    faction="BRAF_B_BRAF_Bluforce";
+    faction="BRAF_B_BRAF_Bluforce_FA";
     side=1;
-    crew="braf_B_characters_aviation_army_aviation_pilot";
-    typicalCargo[]={"braf_B_characters_aviation_army_aviation_pilot"};
+    crew="braf_characters_aviation_air_force_fighter_pilot";
   };
 //    EMBARCAÇÕES
   class braf_voadeira_01;

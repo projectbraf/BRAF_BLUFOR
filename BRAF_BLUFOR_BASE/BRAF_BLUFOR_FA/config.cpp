@@ -42,68 +42,74 @@ class CfgEditorSubcategories
 class cfgVehicles
 {
 //CLASS
-  class braf_army_rifleman_base;
-  class braf_fab_rifleman: braf_army_rifleman_base
+  class braf_army_rifleman_regular_2000;
+  class braf_army_aa_regular_2000;
+  class braf_army_ar_regular_2000;
+  class braf_army_sl_regular_2000;
+  class braf_army_of_regular_2000;
+  class braf_army_tl_regular_2000;
+  class braf_fab_rifleman: braf_army_rifleman_regular_2000
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_fab_aa: braf_army_rifleman_base
+  class braf_fab_aa: braf_army_aa_regular_2000
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_fab_mg: braf_army_rifleman_base
+  class braf_fab_mg: braf_army_ar_regular_2000
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_fab_sl: braf_army_rifleman_base
+  class braf_fab_sl: braf_army_sl_regular_2000
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_fab_of: braf_army_rifleman_base
+  class braf_fab_of: braf_army_of_regular_2000
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_fab_tl: braf_army_rifleman_base
+  class braf_fab_tl: braf_army_tl_regular_2000
   {
+    displayName="Guard Leader";
     modelSides[] = {3,2,1,0};
   };
 // UNITS
-  class braf_b_fab_rifleman:braf_fab_rifleman
+  class braf_b_fab_rifleman: braf_fab_rifleman
       {
       faction="BRAF_B_BRAF_Bluforce_FA";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-  class braf_b_fab_aa:braf_fab_aa
+  class braf_b_fab_aa: braf_fab_aa
       {
       faction="BRAF_B_BRAF_Bluforce_FA";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-  class braf_b_fab_mg:braf_fab_mg
+  class braf_b_fab_mg: braf_fab_mg
       {
       faction="BRAF_B_BRAF_Bluforce_FA";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-  class braf_b_fab_sl:braf_fab_sl
+  class braf_b_fab_sl: braf_fab_sl
         {
       faction="BRAF_B_BRAF_Bluforce_FA";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-  class braf_b_fab_of:braf_fab_of
+  class braf_b_fab_of: braf_fab_of
         {
       faction="BRAF_B_BRAF_Bluforce_FA";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-  class braf_b_fab_tl:braf_fab_tl
+  class braf_b_fab_tl: braf_fab_tl
         {
       faction="BRAF_B_BRAF_Bluforce_FA";
       side=1;

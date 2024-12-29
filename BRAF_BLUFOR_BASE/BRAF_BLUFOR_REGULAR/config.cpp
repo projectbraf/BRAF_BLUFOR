@@ -60,27 +60,39 @@ class CfgEditorSubcategories {
 class cfgVehicles
 {
   class braf_army_rifleman_base;
-  class Braf_army_ammo_regular_2020: braf_army_rifleman_base
+  class braf_army_ammo_base;
+  class braf_army_ar_base;
+  class braf_army_medic_base;
+  class braf_army_crewman_base;
+  class braf_army_eng_base;
+  class braf_army_dmr_base;
+  class braf_army_launcher_base;
+  class braf_army_support_base;
+  class braf_army_of_base;
+  class braf_army_sl_base;
+  class braf_army_tl_base;
+  class braf_army_sniper_base;
+  class Braf_army_ammo_regular_2020: braf_army_ammo_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class Braf_army_ar_regular_2020: braf_army_rifleman_base
+  class Braf_army_ar_regular_2020: braf_army_ar_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class Braf_army_medic_regular_2020 : braf_army_rifleman_base
+  class Braf_army_medic_regular_2020 : braf_army_medic_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class Braf_army_crewman_regular_2020 : braf_army_rifleman_base
+  class Braf_army_crewman_regular_2020 : braf_army_crewman_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_army_modern_crewman_2020 : braf_army_rifleman_base
+  class braf_army_modern_crewman_2020 : braf_army_crewman_regular_2020
   {
     modelSides[] = {3,2,1,0};
   };
-  class Braf_army_eng_regular_2020 : braf_army_rifleman_base
+  class Braf_army_eng_regular_2020 : braf_army_eng_base
   {
     modelSides[] = {3,2,1,0};
   };
@@ -92,7 +104,7 @@ class cfgVehicles
   {
     modelSides[] = {3,2,1,0};
   };
-  class Braf_army_mg_regular_2020 : braf_army_rifleman_base
+  class Braf_army_mg_regular_2020 : braf_army_ar_base
   {
     modelSides[] = {3,2,1,0};
   };
@@ -100,7 +112,7 @@ class cfgVehicles
   {
     modelSides[] = {3,2,1,0};
   };
-  class Braf_army_dmr_regular_2020 : braf_army_rifleman_base
+  class Braf_army_dmr_regular_2020 : braf_army_dmr_base
   {
     modelSides[] = {3,2,1,0};
   };
@@ -116,7 +128,7 @@ class cfgVehicles
   {
     modelSides[] = {3,2,1,0};
   };
-  class Braf_army_aa_regular_2020 : braf_army_rifleman_base
+  class Braf_army_aa_regular_2020 : braf_army_launcher_base
   {
     modelSides[] = {3,2,1,0};
   };
@@ -124,15 +136,11 @@ class cfgVehicles
   {
     modelSides[] = {3,2,1,0};
   };
-  class Braf_army_mortar_regular_2020 : braf_army_rifleman_base
+  class Braf_army_mortar_regular_2020 : braf_army_support_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class Braf_army_of_regular_2020 : braf_army_rifleman_base
-  {
-    modelSides[] = {3,2,1,0};
-  };
-  class Braf_army_radioop_regular_2020 : braf_army_rifleman_base
+  class Braf_army_of_regular_2020 : braf_army_of_base
   {
     modelSides[] = {3,2,1,0};
   };
@@ -140,11 +148,15 @@ class cfgVehicles
   {
     modelSides[] = {3,2,1,0};
   };
-  class Braf_army_at_regular_2020 : braf_army_rifleman_base
+  class Braf_army_radioop_regular_2020 : braf_army_rifleman_regular_2020
   {
     modelSides[] = {3,2,1,0};
   };
-  class Braf_army_lat_regular_2020 : braf_army_rifleman_base
+  class Braf_army_at_regular_2020 : braf_army_launcher_base
+  {
+    modelSides[] = {3,2,1,0};
+  };
+  class Braf_army_lat_regular_2020 : braf_army_launcher_base
   {
     modelSides[] = {3,2,1,0};
   };
@@ -152,15 +164,15 @@ class cfgVehicles
   {
     modelSides[] = {3,2,1,0};
   };
-  class Braf_army_sniper_regular_2020 : braf_army_rifleman_base
+  class Braf_army_sniper_regular_2020 : braf_army_sniper_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class Braf_army_sl_regular_2020 : braf_army_rifleman_base
+  class Braf_army_sl_regular_2020 : braf_army_sl_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class Braf_army_tl_regular_2020 : braf_army_rifleman_base
+  class Braf_army_tl_regular_2020 : braf_army_tl_base
   {
     modelSides[] = {3,2,1,0};
   };
@@ -297,7 +309,7 @@ class cfgVehicles
       modelSides[] = {3,2,1,0};
 
       };
-  class Braf_B_army_rifleman_regular_2020:Braf_army_rifleman_regular_2020
+  class Braf_B_army_rifleman_regular_2020: Braf_army_rifleman_regular_2020
       {
       faction="BRAF_B_BRAF_Bluforce";
       side=1;

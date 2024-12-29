@@ -54,55 +54,71 @@ class cfgVehicles
 {
 //CLASS
   class braf_army_rifleman_base;
-  class braf_marines_ammo: braf_army_rifleman_base
+  class braf_army_ammo_base;
+  class braf_army_ar_base;
+  class braf_army_medic_base;
+  class braf_army_eng_base;
+  class braf_army_eod_base;
+  class braf_army_m2_a_base;
+  class braf_army_m2_base;
+  class braf_army_dmr_base;
+  class braf_army_lat_base;
+  class braf_army_aa_base;
+  class braf_army_tl_base;
+  class braf_army_of_base;
+  class braf_army_sl_base;
+  class braf_army_mortar_base;
+  class braf_army_mortar_a_base;
+  class braf_army_at_base;
+  class braf_marines_ammo: braf_army_ammo_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_marines_ar: braf_army_rifleman_base
+  class braf_marines_ar: braf_army_ar_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_marines_medic: braf_army_rifleman_base
+  class braf_marines_medic: braf_army_medic_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_marines_eng: braf_army_rifleman_base
+  class braf_marines_eng: braf_army_eng_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_marines_eod: braf_army_rifleman_base
+  class braf_marines_eod: braf_army_eod_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_marines_m2_a: braf_army_rifleman_base
+  class braf_marines_m2_a: braf_army_m2_a_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_marines_m2: braf_army_rifleman_base
+  class braf_marines_m2: braf_army_m2_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_marines_dmr: braf_army_rifleman_base
+  class braf_marines_dmr: braf_army_dmr_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_marines_aa: braf_army_rifleman_base
+  class braf_marines_aa: braf_army_aa_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_marines_at: braf_army_rifleman_base
+  class braf_marines_at: braf_army_at_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_marines_mortar_a: braf_army_rifleman_base
+  class braf_marines_mortar_a: braf_army_mortar_a_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_marines_mortar: braf_army_rifleman_base
+  class braf_marines_mortar: braf_army_mortar_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_marines_officer: braf_army_rifleman_base
+  class braf_marines_officer: braf_army_of_base
   {
     modelSides[] = {3,2,1,0};
   };
@@ -110,132 +126,132 @@ class cfgVehicles
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_marines_lat: braf_army_rifleman_base
+  class braf_marines_lat: braf_army_lat_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_marines_sl: braf_army_rifleman_base
+  class braf_marines_sl: braf_army_sl_base
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_marines_tl: braf_army_rifleman_base
+  class braf_marines_tl: braf_army_tl_base
   {
     modelSides[] = {3,2,1,0};
   };
 //UNITS
-class braf_b_marines_ammo:braf_marines_ammo
+class braf_b_marines_ammo: braf_marines_ammo
 {
       faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-class braf_b_marines_ar:braf_marines_ar
+class braf_b_marines_ar: braf_marines_ar
 {
       faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-class braf_b_marines_medic:braf_marines_medic
+class braf_b_marines_medic: braf_marines_medic
 {
       faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-class braf_b_marines_eng:braf_marines_eng
+class braf_b_marines_eng: braf_marines_eng
 {
       faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-class braf_b_marines_eod:braf_marines_eod
+class braf_b_marines_eod: braf_marines_eod
 {
       faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-class braf_b_marines_m2_a:braf_marines_m2_a
+class braf_b_marines_m2_a: braf_marines_m2_a
 {
       faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-class braf_b_marines_m2:braf_marines_m2
+class braf_b_marines_m2: braf_marines_m2
 {
       faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-class braf_b_marines_dmr:braf_marines_dmr
+class braf_b_marines_dmr: braf_marines_dmr
 {
       faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-class braf_b_marines_aa:braf_marines_aa
+class braf_b_marines_aa: braf_marines_aa
 {
       faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-class braf_b_marines_at:braf_marines_at
+class braf_b_marines_at: braf_marines_at
 {
       faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-class braf_b_marines_mortar_a:braf_marines_mortar_a
+class braf_b_marines_mortar_a: braf_marines_mortar_a
 {
       faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-class braf_b_marines_mortar:braf_marines_mortar
+class braf_b_marines_mortar: braf_marines_mortar
 {
       faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-class braf_b_marines_officer:braf_marines_officer
+class braf_b_marines_officer: braf_marines_officer
 {
       faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-class braf_b_marines_rifleman:braf_marines_rifleman
+class braf_b_marines_rifleman: braf_marines_rifleman
 {
       faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-class braf_b_marines_lat:braf_marines_lat
+class braf_b_marines_lat: braf_marines_lat
 {
       faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-class braf_b_marines_sl:braf_marines_sl
+class braf_b_marines_sl: braf_marines_sl
 {
       faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-class braf_b_marines_tl:braf_marines_tl
+class braf_b_marines_tl: braf_marines_tl
 {
       faction="BRAF_B_BRAF_Bluforce_marines";
       side=1;

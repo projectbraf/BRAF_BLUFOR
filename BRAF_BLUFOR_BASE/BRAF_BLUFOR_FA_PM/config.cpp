@@ -41,34 +41,36 @@ class cfgVehicles
 {
 //CLASS
   class braf_army_rifleman_base;
-  class braf_fab_pa_rifleman: braf_army_rifleman_base
+  class braf_fab_tl;
+  class braf_fab_rifleman;
+  class braf_fab_pa_rifleman: braf_fab_rifleman
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_fab_pa_shotgun: braf_army_rifleman_base
+  class braf_fab_pa_shotgun: braf_fab_pa_rifleman
   {
     modelSides[] = {3,2,1,0};
   };
-  class braf_fab_pa_tl: braf_army_rifleman_base
+  class braf_fab_pa_tl: braf_fab_tl
   {
     modelSides[] = {3,2,1,0};
   };
 // UNITS
-  class braf_b_fab_pa_rifleman:braf_fab_pa_rifleman
+  class braf_b_fab_pa_rifleman: braf_fab_pa_rifleman
         {
       faction="BRAF_B_BRAF_Bluforce_FA";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-  class braf_b_fab_pa_shotgun:braf_fab_pa_shotgun
+  class braf_b_fab_pa_shotgun: braf_fab_pa_shotgun
         {
       faction="BRAF_B_BRAF_Bluforce_FA";
       side=1;
       modelSides[] = {3,2,1,0};
 
       };
-  class braf_b_fab_pa_tl:braf_fab_pa_tl
+  class braf_b_fab_pa_tl: braf_fab_pa_tl
         {
       faction="BRAF_B_BRAF_Bluforce_FA";
       side=1;

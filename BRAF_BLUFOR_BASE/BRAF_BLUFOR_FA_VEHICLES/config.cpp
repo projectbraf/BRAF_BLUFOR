@@ -103,49 +103,49 @@ class BRAF_B_Fennec_Cargo_FAB: braf_Fennec_Cargo_FAB
   {
     faction="BRAF_B_BRAF_Bluforce_FA";
     side=1;
-    crew="braf_B_characters_aviation_army_aviation_pilot";
-    typicalCargo[]={"braf_B_characters_aviation_army_aviation_pilot"};
+    crew="braf_characters_aviation_air_force_pilot";
+    typicalCargo[]={"braf_characters_aviation_air_force_pilot"};
   };
   class BRAF_B_Fennec_Armed_FAB: BRAF_Fennec_Armed_FAB
   {
     faction="BRAF_B_BRAF_Bluforce_FA";
     side=1;
-    crew="braf_B_characters_aviation_army_aviation_pilot";
-    typicalCargo[]={"braf_B_characters_aviation_army_aviation_pilot"};
+    crew="braf_characters_aviation_air_force_pilot";
+    typicalCargo[]={"braf_characters_aviation_air_force_pilot"};
   };
   class BRAF_B_Fennec_SAR_FAB: BRAF_Fennec_SAR_FAB
   {
     faction="BRAF_B_BRAF_Bluforce_FA";
     side=1;
-    crew="braf_B_characters_aviation_army_aviation_pilot";
-    typicalCargo[]={"braf_B_characters_aviation_army_aviation_pilot"};
+    crew="braf_characters_aviation_air_force_pilot";
+    typicalCargo[]={"braf_characters_aviation_air_force_pilot"};
   };
   class BRAF_B_Fennec_Unarmed_FAB: BRAF_Fennec_Unarmed_FAB
   {
     faction="BRAF_B_BRAF_Bluforce_FA";
     side=1;
-    crew="braf_B_characters_aviation_army_aviation_pilot";
-    typicalCargo[]={"braf_B_characters_aviation_army_aviation_pilot"};
+    crew="braf_characters_aviation_air_force_pilot";
+    typicalCargo[]={"braf_characters_aviation_air_force_pilot"};
   };
   class BRAF_B_Caracal_7: BRAF_Caracal_7
   {
     faction="BRAF_B_BRAF_Bluforce_FA";
     side=1;
-    crew="braf_B_characters_aviation_army_aviation_pilot";
-    typicalCargo[]={"braf_B_characters_aviation_army_aviation_pilot"};
+    crew="braf_characters_aviation_air_force_pilot";
+    typicalCargo[]={"braf_characters_aviation_air_force_pilot"};
   };
   class BRAF_B_Caracal_8: BRAF_Caracal_8
   {
     faction="BRAF_B_BRAF_Bluforce_FA";
     side=1;
-    crew="braf_B_characters_aviation_army_aviation_pilot";
-    typicalCargo[]={"braf_B_characters_aviation_army_aviation_pilot"};
+    crew="braf_characters_aviation_air_force_pilot";
+    typicalCargo[]={"braf_characters_aviation_air_force_pilot"};
   };
   class BRAF_B_Caracal_9: BRAF_Caracal_9
   {
     faction="BRAF_B_BRAF_Bluforce_FA";
     side=1;
-    crew="braf_B_characters_aviation_army_aviation_pilot";
-    typicalCargo[]={"braf_B_characters_aviation_army_aviation_pilot"};
+    crew="braf_characters_aviation_air_force_pilot";
+    typicalCargo[]={"braf_characters_aviation_air_force_pilot"};
   };
 };
