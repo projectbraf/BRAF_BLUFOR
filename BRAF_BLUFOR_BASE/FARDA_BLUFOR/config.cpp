@@ -5,7 +5,7 @@ class cfgPatches
     units[]={};
     weapons[]={};
     requiredVersion=0.1;
-    requiredAddons[]={};
+    requiredAddons[]={"braf_characters_aviation"};
   };
 };
 

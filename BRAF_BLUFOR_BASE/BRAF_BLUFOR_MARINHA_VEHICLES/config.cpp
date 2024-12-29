@@ -21,7 +21,7 @@ class cfgPatches
     };
     weapons[]={};
     requiredVersion=0.1;
-    requiredAddons[]={};
+    requiredAddons[]={"braf_characters_aviation"};
   };
 };
 
@@ -64,12 +64,6 @@ class cfgVehicles
       side=1;
       crew="braf_b_marines_rifleman";
       typicalCargo[]={"braf_b_marines_rifleman"};
-      hiddenSelectionsTextures[]=
-      {
-            "braf\braf_soft\BRAF_Marrua\AM11\Data\CFN\їю*дш_1_co.paa",
-					"braf\braf_soft\BRAF_Marrua\AM11\Data\CFN\ТУјжщп*сФЭ_2_co.paa",
-					"braf\braf_soft\BRAF_Marrua\AM11\Data\фчЩ?љЧ_ca.paa"
-      };
   };
   class BRAF_B_AM11_Armed_CFN:BRAF_AM11_Armed_CFN
   {
@@ -77,12 +71,6 @@ class cfgVehicles
       side=1;
       crew="braf_b_marines_rifleman";
       typicalCargo[]={"braf_b_marines_rifleman"};
-      hiddenSelectionsTextures[]=
-      {
-            "braf\braf_soft\BRAF_Marrua\AM11\Data\CFN\їю*дш_1_co.paa",
-					"braf\braf_soft\BRAF_Marrua\AM11\Data\CFN\ТУјжщп*сФЭ_2_co.paa",
-					"braf\braf_soft\BRAF_Marrua\AM11\Data\фчЩ?љЧ_ca.paa"
-      };
   };
   class BRAF_B_AM21_CFN:BRAF_AM21_CFN
   {

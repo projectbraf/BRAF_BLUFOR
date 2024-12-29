@@ -396,12 +396,6 @@ class BRAF_Worker_Fuel_CFN;
   side=1;
   modelSides[] = {3,2,1,0};
   };
-  class braf_B_characters_aviation_army_aviation_pilot:braf_characters_aviation_army_aviation_pilot
-  {
-  faction="BRAF_B_BRAF_Bluforce";
-  side=1;
-  modelSides[] = {3,2,1,0};
-  };
   class braf_B_characters_aviation_air_force_fighter_pilot:braf_characters_aviation_air_force_fighter_pilot
   {
   faction="BRAF_B_BRAF_Bluforce";
@@ -642,8 +636,10 @@ class BRAF_Worker_Fuel_CFN;
       typicalCargo[]={"Braf_B_army_rifleman_regular_2020"};
   };
   class braf_b_m120: braf_m120
+  {
   faction="BRAF_B_BRAF_Bluforce";
   side=1;
   crew="Braf_B_army_rifleman_regular_2020";
   typicalCargo[]={"Braf_B_army_rifleman_regular_2000"};
+  };
 };
